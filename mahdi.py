@@ -1,6 +1,6 @@
 import os,time
 os.system('clear')
-os.system('xdg-open https://facebook.com/ma4D1')
+#os.system('xdg-open https://facebook.com/ma4D1')
 from platform import uname
 arch=uname().machine.lower()
 if 'aarch' in arch:
